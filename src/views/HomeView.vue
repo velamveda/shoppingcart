@@ -79,7 +79,7 @@ export default {
         store.commit('addToCart',product)},
       getImage:(src)=> './../images' + src,     
       user,
-      filteredList
+      //filteredList
     }
   }
 }
