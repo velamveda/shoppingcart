@@ -1,5 +1,5 @@
 <template>
-  <div class="pageheight login">
+  <div class="pageheight loginform">
     <form @submit.prevent="handleSubmit">
       <h3>Sign up</h3>
       <div class="form-group">
