@@ -1,5 +1,5 @@
 <template>
-<div class="pageheight login">
+<div class="pageheight loginform">
   <form @submit.prevent="handleSubmit">
     <h3>Login</h3>
     <div class="form-group">
@@ -60,7 +60,7 @@ export default {
   min-height:calc(100vh - 163px);
   width: 100%;
 }
-.login form{
+.loginform form{
   width:100%;
   max-width:450px;   
   margin:20px auto;
